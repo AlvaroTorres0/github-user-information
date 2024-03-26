@@ -21,7 +21,7 @@ function CardFollower({ avatar, userName }) {
   );
 }
 
-function ListFollowers({ url }) {
+function ListFollowers({ url, titleSection }) {
   const { getFollowers, followers, errorResponse } = useFollowers();
   const {
     currentItems,
@@ -41,7 +41,7 @@ function ListFollowers({ url }) {
 
   return (
     <article className="followers">
-      <h2 className="section-title">Followers</h2>
+      <h2 className="section-title">{titleSection}</h2>
       <div className="followers-list">
         {followers &&
           currentItems.map((follower) => (

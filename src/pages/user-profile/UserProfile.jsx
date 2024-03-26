@@ -45,7 +45,7 @@ function UserProfile() {
 
       <>
         {userData && userData.followers_url && (
-          <Followers url={userData.followers_url} />
+          <Followers url={userData.followers_url} titleSection="Followers" />
         )}
       </>
 
@@ -53,6 +53,7 @@ function UserProfile() {
         {userData && userData.following_url && (
           <Followers
             url={`https://api.github.com/users/${username}/following`}
+            titleSection="Following"
           />
         )}
       </>
