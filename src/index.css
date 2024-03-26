@@ -1,0 +1,54 @@
+@font-face {
+  font-family: "principal-ultralight"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-ultralight-58646b19bf205.otf")
+    format("woff");
+}
+@font-face {
+  font-family: "principal-thin"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-thin-58646e9b26e8b.otf")
+    format("woff");
+}
+@font-face {
+  font-family: "principal-semibold"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-semibold-58646eddcae92.otf")
+    format("woff");
+}
+@font-face {
+  font-family: "principal-medium"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-medium-58646be638f96.otf")
+    format("woff");
+}
+@font-face {
+  font-family: "principal-light"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-light-58646b33e0551.otf")
+    format("woff");
+}
+@font-face {
+  font-family: "principal-bold"; /* Nombre que le das a la fuente */
+  src: url("./assets/sf-ui-display/sf-ui-display-bold-58646a511e3d9.otf")
+    format("woff");
+}
+
+:root,
+html {
+  background-color: #010409;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --primaryColor: #f0f0f0;
+  --secondaryColor: #e9e9e9;
+  --tertiaryColor: #afafaf;
+  --quaternaryColor: #b9b9b9;
+}
+
+#root {
+  display: grid;
+  place-items: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

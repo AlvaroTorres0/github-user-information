@@ -1,0 +1,143 @@
+.section-info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.section-info_img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.section-info_img img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.username {
+  font-family: principal-bold;
+  color: var(--primaryColor);
+}
+
+.section-info_data {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+  text-align: start;
+}
+.section-info_data-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.name {
+  font-family: principal-semibold;
+  color: var(--secondaryColor);
+  font-size: 18px;
+}
+.member-date {
+  font-family: principal-ultralight;
+  color: var(--quaternaryColor);
+  font-size: 15px;
+}
+.location {
+  font-family: principal-ultralight;
+  color: var(--quaternaryColor);
+  font-size: 15px;
+}
+.description-lbl {
+  font-family: principal-semibold;
+  color: var(--secondaryColor);
+  font-size: 17px;
+}
+.description {
+  font-family: principal-medium;
+  color: var(--tertiaryColor);
+  font-size: 15px;
+  justify-self: flex-start !important ;
+}
+.section-info_data-aditional {
+  display: flex;
+  width: 100%;
+  gap: 5%;
+}
+.section-info_data-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-info_stats {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.section-info_stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-grow: 0;
+  flex-shrink: 1;
+}
+.card-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+}
+.card-stat-item {
+  font-family: principal-semibold;
+  color: var(--secondaryColor);
+  font-size: 16px;
+}
+.card-stat-value {
+  font-family: principal-bold;
+  color: var(--tertiaryColor);
+  font-size: 20px;
+}
+
+.section-info_stats-access {
+  display: flex;
+  justify-content: space-between;
+}
+.section-info_stats-access--btn {
+  background: transparent;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  transition: 0.4s;
+  transition-property: background, color;
+}
+.section-info_stats-access--btn:hover {
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+.section-info_stats--twitter {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.twitter-logo {
+  width: 100%;
+  max-width: 20px;
+  height: auto;
+}
+.twitter-user {
+  font-family: principal-semibold;
+  color: var(--quaternaryColor);
+  font-size: 14px;
+}

@@ -1,0 +1,7 @@
+.user-profile {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  margin-bottom: 10%;
+}

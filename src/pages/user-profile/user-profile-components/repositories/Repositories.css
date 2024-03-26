@@ -1,0 +1,12 @@
+.repositories {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  text-align: start;
+}
+
+.repositories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

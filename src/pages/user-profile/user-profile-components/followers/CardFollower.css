@@ -1,0 +1,37 @@
+.small-user-card {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 1px solid var(--tertiaryColor);
+  border-radius: 10px;
+  color: #fff;
+  justify-self: self-start;
+}
+
+.small-user-card_avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.small-user-card_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card_info-username {
+  font-family: principal-semibold;
+  font-size: 15px;
+  color: var(--primaryColor);
+}
+.card_info-view {
+  font-family: principal-light;
+  font-size: 15px;
+  color: var(--tertiaryColor);
+}
+.card_info-view:hover {
+  cursor: pointer;
+  color: var(--secondaryColor);
+}

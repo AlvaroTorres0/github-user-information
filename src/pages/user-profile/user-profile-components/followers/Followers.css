@@ -1,0 +1,12 @@
+.followers {
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+  text-align: start;
+}
+.followers-list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 10px;
+}
